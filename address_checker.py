@@ -19,8 +19,8 @@ ADDRESSES = {
 # BE CAREFUL - any more than 5 ETH addrs and you will have to start rate-limiting your
 # API requests
 
-#'REvil Ransomware': {'address': '33SF8qLXh3mT1W6qeVBX2g8uTzj94oGJrk', 
-#'ticker': 'BTC'}
+'REvil Ransomware': {'address': '33SF8qLXh3mT1W6qeVBX2g8uTzj94oGJrk', 
+'ticker': 'BTC'}
 
 }
 
