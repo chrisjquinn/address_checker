@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>509</string>
+	<string>512</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>set the_script to "/Users/chris.quinn/Documents/Cronjobs/address_checker/address_checker.sh"set the_result to do shell script the_scriptif (the_result is not "") then	display notification the_result with title "Address Checking"end if</string>
+					<string>set the_script to "/&lt;PATH&gt;/address_checker.sh"set the_result to do shell script the_scriptif (the_result is not "") then	display notification the_result with title "Address Checking"end if</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>565.000000:247.000000</string>
+				<string>529.000000:247.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
