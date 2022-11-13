@@ -86,7 +86,8 @@ def pingETH(addr):
 	# Check the current balance of a given address for ETH
 
 	# Please take me out of this file when pushing to a public repo
-	eth_api_key = '9YPGYCVTWJNF9NSNH1G5TKVC3AWQ2FTN4N'
+	with open(f"./apiKey/etherscan", 'r') as f:
+		eth_api_key = f.read()
 
 	ETH_ENDPOINT = 'https://api.etherscan.io/api'
 	params = {
