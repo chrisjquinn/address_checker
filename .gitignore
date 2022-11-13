@@ -6,3 +6,6 @@
 
 # Any address balances (and any text file)
 *.txt
+
+# Api-Keys folder
+apikeys/
